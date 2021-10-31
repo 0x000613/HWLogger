@@ -40,5 +40,5 @@ while True:
         f.write("{} : {}°C\n\n".format(result[2][0], result[2][1]))
         time.sleep(1)
     except:
-        print("Core.exe를 실행해주세요")
+        print("\"Core.exe\" Not running now!\nPlease run the \"Core.exe\" first ")
         w = wmi.WMI(namespace="root\OpenHardwareMonitor")
